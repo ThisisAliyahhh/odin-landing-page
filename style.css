@@ -9,7 +9,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-.page-header, .hero-section, .info-section, .quotes-section {
+.page-header, .hero-section, .info-section, .quotes-section, .call-to-action-section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -149,4 +149,38 @@
 .quote-author {
     font-size: 26px;
     font-weight: 600;
+}
+
+.call-to-action-section{
+    min-height: 300px;
+}
+
+.call-to-action-wrapper {
+    min-height: 150px;
+    justify-content: center;
+    padding: 20px 0;
+    background: #3882F6;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.call-to-action .button {
+    border: 1px solid #F9FAF8;
+}
+
+.cta-heading {
+    font-size: 20px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.cta-text {
+    color: #E5E7EB;
 }
