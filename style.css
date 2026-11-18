@@ -9,7 +9,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-.page-header, .hero-section, .info-section, .quotes-section, .call-to-action-section {
+.page-header, .hero-section, .info-section, .quotes-section, .call-to-action-section, .page-footer {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     padding: 16px 0;
 }
 
-.page-header, .hero-section {
+.page-header, .hero-section, .page-footer {
     background: #1F2937; 
 }
 
@@ -54,7 +54,7 @@
 }
 
 .right-hero {
-    flex: 1;
+    width: 50%;
 }
 
 .main-text {
@@ -81,7 +81,7 @@
 }
 
 .left-hero {
-    flex: 1;
+    width: 45%;
 }
 
 .left-hero img {
@@ -183,4 +183,10 @@
 
 .cta-text {
     color: #E5E7EB;
+}
+
+.footer-wrapper {
+    justify-content: center;
+    height: 50px;
+    color: #F9FAF8;
 }
